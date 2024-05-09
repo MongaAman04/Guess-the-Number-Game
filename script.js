@@ -79,6 +79,7 @@ function endgame() {
 function newgame() {
    const newgamebutton = document.querySelector('#Newgame')
     newgamebutton.addEventListener('click',function (e) {
+        e.target
         randomNumber = parseInt(Math.random()*100+1);
         preguess = []
         numguess = 1
