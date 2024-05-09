@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+    color: aliceblue;
+}
+#wrapper h1{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
+#wrapper p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 49px;
+    color: aliceblue;
+}
+.guessfield{
+    height: 40px;
+}
+.guessSubmit{
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.result{
+    margin-top: 50px;
+    font-size: 30px;
+
+}
